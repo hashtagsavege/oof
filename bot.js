@@ -10,6 +10,11 @@ client.on('message', message => {
     	message.reply('This feature is coming soon.');
   	}
 });
+client.on('message', message => {
+    if (message.content === ';;weather') {
+    	message.reply('This feature is coming soon.');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
