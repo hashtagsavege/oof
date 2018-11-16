@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === ';;weather') {
-    	message.reply(':x: This feature is coming soon.');
+    	message.reply('**| :x: This feature is coming soon.**');
   	}
 });
 
