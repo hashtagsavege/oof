@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === ';;weather') {
-    	message.reply('**| <:logo123:513130391109107722> This feature is coming soon.**');
+    	message.reply('**This feature is coming soon.**');
   	}
 });
 
