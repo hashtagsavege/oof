@@ -11,8 +11,8 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === ';;weather1') {
-    	message.reply('This feature is coming soon.');
+    if (message.content === ';;help') {
+    	message.reply('The bot is currently in beta mode, so none of its commands work yet. The bot will leave beta mode soon.');
   	}
 });
 
